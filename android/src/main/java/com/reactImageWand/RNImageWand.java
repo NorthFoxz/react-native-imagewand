@@ -23,7 +23,10 @@ import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.SystemClock;
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.util.Log;
+=======
+>>>>>>> 2d69a864c39e46b74b4827f4bd8675cd720cd7df
 =======
 >>>>>>> 2d69a864c39e46b74b4827f4bd8675cd720cd7df
 
@@ -61,7 +64,10 @@ public class RNImageWand extends GenericDraweeView {
 
     private static final int REMOTE_IMAGE_FADE_DURATION_MS = 300;
 <<<<<<< HEAD
+<<<<<<< HEAD
     private int mBlur;
+=======
+>>>>>>> 2d69a864c39e46b74b4827f4bd8675cd720cd7df
 =======
 >>>>>>> 2d69a864c39e46b74b4827f4bd8675cd720cd7df
 
@@ -79,6 +85,7 @@ public class RNImageWand extends GenericDraweeView {
     private static final Matrix sMatrix = new Matrix();
     private static final Matrix sInverse = new Matrix();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     private class redMeshPostprocessor extends BasePostprocessor {
         @Override
@@ -118,6 +125,8 @@ public class RNImageWand extends GenericDraweeView {
     }
 
 
+=======
+>>>>>>> 2d69a864c39e46b74b4827f4bd8675cd720cd7df
 =======
 >>>>>>> 2d69a864c39e46b74b4827f4bd8675cd720cd7df
     private class RoundedCornerPostprocessor extends BasePostprocessor {
@@ -211,7 +220,10 @@ public class RNImageWand extends GenericDraweeView {
                         @Nullable Animatable animatable) {
                     if (imageInfo != null) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                         Log.d("abc",String.valueOf(imageInfo.getWidth()));
+=======
+>>>>>>> 2d69a864c39e46b74b4827f4bd8675cd720cd7df
 =======
 >>>>>>> 2d69a864c39e46b74b4827f4bd8675cd720cd7df
                         mEventDispatcher.dispatchEvent(
@@ -278,12 +290,15 @@ public class RNImageWand extends GenericDraweeView {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public void setBlur(@Nullable Integer blur) {
         if(blur != null) {
             mBlur = blur;
         }
     }
 
+=======
+>>>>>>> 2d69a864c39e46b74b4827f4bd8675cd720cd7df
 =======
 >>>>>>> 2d69a864c39e46b74b4827f4bd8675cd720cd7df
     public void setLoadingIndicatorSource(@Nullable String name) {
@@ -308,7 +323,10 @@ public class RNImageWand extends GenericDraweeView {
             return;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         Log.d("abc","updating view");
+=======
+>>>>>>> 2d69a864c39e46b74b4827f4bd8675cd720cd7df
 =======
 >>>>>>> 2d69a864c39e46b74b4827f4bd8675cd720cd7df
 
@@ -342,6 +360,7 @@ public class RNImageWand extends GenericDraweeView {
         Postprocessor postprocessor = usePostprocessorScaling ? mRoundedCornerPostprocessor : null;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         Postprocessor redMeshPostprocessor = new redMeshPostprocessor();
 
         ResizeOptions resizeOptions = doResize ? new ResizeOptions(getWidth(), getHeight()) : null;
@@ -349,10 +368,15 @@ public class RNImageWand extends GenericDraweeView {
         ImageRequest imageRequest = ImageRequestBuilder.newBuilderWithSource(mUri)
                 .setPostprocessor(redMeshPostprocessor)
 =======
+=======
+>>>>>>> 2d69a864c39e46b74b4827f4bd8675cd720cd7df
         ResizeOptions resizeOptions = doResize ? new ResizeOptions(getWidth(), getHeight()) : null;
 
         ImageRequest imageRequest = ImageRequestBuilder.newBuilderWithSource(mUri)
                 .setPostprocessor(postprocessor)
+<<<<<<< HEAD
+>>>>>>> 2d69a864c39e46b74b4827f4bd8675cd720cd7df
+=======
 >>>>>>> 2d69a864c39e46b74b4827f4bd8675cd720cd7df
                 .setResizeOptions(resizeOptions)
                 .setAutoRotateEnabled(true)
@@ -435,6 +459,7 @@ public class RNImageWand extends GenericDraweeView {
                 .path(String.valueOf(resId))
                 .build() : Uri.EMPTY;
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
     public Bitmap fastblur(Bitmap sentBitmap, float scale, int radius) {
 
@@ -642,6 +667,8 @@ public class RNImageWand extends GenericDraweeView {
         bitmap.setPixels(pix, 0, w, 0, 0, w, h);
         return (bitmap);
     }
+=======
+>>>>>>> 2d69a864c39e46b74b4827f4bd8675cd720cd7df
 =======
 >>>>>>> 2d69a864c39e46b74b4827f4bd8675cd720cd7df
 }

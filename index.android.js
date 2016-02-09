@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 // ImageView.js
 
 var { requireNativeComponent, PropTypes } = require('react-native');
@@ -26,6 +27,8 @@ var iface = {
 
 module.exports = requireNativeComponent('RCTImageWand', iface);
 =======
+=======
+>>>>>>> 2d69a864c39e46b74b4827f4bd8675cd720cd7df
 /**
  * Copyright (c) 2015-present, Facebook, Inc.
  * All rights reserved.
@@ -251,5 +254,9 @@ var cfg = {
 var RKImage = requireNativeComponent('RCTImageWand', Image, cfg);
 var RCTTextInlineImage = requireNativeComponent('RCTTextInlineImage', Image, cfg);
 
+<<<<<<< HEAD
+module.exports = Image;
+>>>>>>> 2d69a864c39e46b74b4827f4bd8675cd720cd7df
+=======
 module.exports = Image;
 >>>>>>> 2d69a864c39e46b74b4827f4bd8675cd720cd7df

@@ -1,0 +1,104 @@
+{
+<<<<<<< HEAD
+  "_args": [
+    [
+      "react-native-imagewand",
+      "/Users/northfoxz/Documents/TIL/reactnative/test"
+    ]
+  ],
+  "_from": "react-native-imagewand@*",
+  "_id": "react-native-imagewand@1.0.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/react-native-imagewand",
+  "_nodeVersion": "5.4.1",
+  "_npmOperationalInternal": {
+    "host": "packages-5-east.internal.npmjs.com",
+    "tmp": "tmp/react-native-imagewand-1.0.0.tgz_1454941513460_0.7557980865240097"
+  },
+  "_npmUser": {
+    "email": "firstera15@gmail.com",
+    "name": "northfoxz"
+  },
+  "_npmVersion": "3.3.12",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "react-native-imagewand",
+    "raw": "react-native-imagewand",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "*",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_shasum": "2d5de084b44b3e521a971974411a1ebe66534fe0",
+  "_shrinkwrap": null,
+  "_spec": "react-native-imagewand",
+  "_where": "/Users/northfoxz/Documents/TIL/reactnative/test",
+  "author": {
+    "name": "northfoxz"
+  },
+  "bugs": {
+    "url": "https://github.com/NorthFoxz/react-native-imagewand/issues"
+  },
+  "dependencies": {},
+  "description": "image wand for react native",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "2d5de084b44b3e521a971974411a1ebe66534fe0",
+    "tarball": "http://registry.npmjs.org/react-native-imagewand/-/react-native-imagewand-1.0.0.tgz"
+  },
+  "gitHead": "2d69a864c39e46b74b4827f4bd8675cd720cd7df",
+  "homepage": "https://github.com/NorthFoxz/react-native-imagewand#readme",
+  "keywords": [
+    "android",
+    "react-component",
+    "react-native"
+  ],
+  "license": "MIT",
+  "main": "index.android.js",
+  "maintainers": [
+    {
+      "name": "northfoxz",
+      "email": "firstera15@gmail.com"
+    }
+  ],
+  "name": "react-native-imagewand",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NorthFoxz/react-native-imagewand.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+=======
+  "name": "react-native-imagewand",
+  "version": "1.0.0",
+  "description": "image wand for react native",
+  "main": "index.android.js",
+  "keywords": [
+    "react-component",
+    "react-native",
+    "android"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NorthFoxz/react-native-camera-android.git"
+  },
+  "author": "northfoxz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NorthFoxz/react-native-camera-android/issues"
+  },
+  "homepage": "https://github.com/NorthFoxz/react-native-camera-android#readme"
+>>>>>>> 2d69a864c39e46b74b4827f4bd8675cd720cd7df
+}

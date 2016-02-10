@@ -10,6 +10,7 @@
 package com.reactImageWand;
 
 import android.support.annotation.IntDef;
+import android.util.Log;
 
 import com.facebook.react.uimanager.events.Event;
 import com.facebook.react.uimanager.events.RCTEventEmitter;

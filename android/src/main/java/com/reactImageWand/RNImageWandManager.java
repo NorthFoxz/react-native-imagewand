@@ -1,26 +1,11 @@
 package com.reactImageWand;
 
 import android.graphics.Color;
-<<<<<<< HEAD
-<<<<<<< HEAD
 import android.util.Log;
-=======
->>>>>>> 2d69a864c39e46b74b4827f4bd8675cd720cd7df
-=======
->>>>>>> 2d69a864c39e46b74b4827f4bd8675cd720cd7df
-
 import com.facebook.drawee.backends.pipeline.Fresco;
 import com.facebook.drawee.controller.AbstractDraweeControllerBuilder;
 import com.facebook.react.common.MapBuilder;
-<<<<<<< HEAD
-<<<<<<< HEAD
 import com.facebook.react.uimanager.annotations.ReactProp;
-=======
-import com.facebook.react.uimanager.ReactProp;
->>>>>>> 2d69a864c39e46b74b4827f4bd8675cd720cd7df
-=======
-import com.facebook.react.uimanager.ReactProp;
->>>>>>> 2d69a864c39e46b74b4827f4bd8675cd720cd7df
 import com.facebook.react.uimanager.SimpleViewManager;
 import com.facebook.react.uimanager.ThemedReactContext;
 import com.facebook.react.uimanager.ViewProps;
@@ -33,13 +18,7 @@ import javax.annotation.Nullable;
 public class RNImageWandManager extends SimpleViewManager<RNImageWand> {
 
     public static final String REACT_CLASS = "RCTImageWand";
-<<<<<<< HEAD
-<<<<<<< HEAD
     private RNImageWand mImageWand;
-=======
->>>>>>> 2d69a864c39e46b74b4827f4bd8675cd720cd7df
-=======
->>>>>>> 2d69a864c39e46b74b4827f4bd8675cd720cd7df
 
     @Override
     public String getName() {
@@ -53,48 +32,20 @@ public class RNImageWandManager extends SimpleViewManager<RNImageWand> {
     public RNImageWandManager(
             AbstractDraweeControllerBuilder draweeControllerBuilder,
             Object callerContext) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        Log.d("abc", "4567");
-=======
->>>>>>> 2d69a864c39e46b74b4827f4bd8675cd720cd7df
-=======
->>>>>>> 2d69a864c39e46b74b4827f4bd8675cd720cd7df
         mDraweeControllerBuilder = draweeControllerBuilder;
         mCallerContext = callerContext;
     }
 
     public RNImageWandManager() {
         // Lazily initialize as FrescoModule have not been initialized yet
-<<<<<<< HEAD
-<<<<<<< HEAD
-        Log.d("abc", "456");
-=======
->>>>>>> 2d69a864c39e46b74b4827f4bd8675cd720cd7df
-=======
->>>>>>> 2d69a864c39e46b74b4827f4bd8675cd720cd7df
         mDraweeControllerBuilder = null;
         mCallerContext = null;
     }
 
     public AbstractDraweeControllerBuilder getDraweeControllerBuilder() {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        Log.d("abc", "45678");
         if (mDraweeControllerBuilder == null) {
             mDraweeControllerBuilder = Fresco.newDraweeControllerBuilder();
         }
-        Log.d("abc","drawee builder success");
-=======
-        if (mDraweeControllerBuilder == null) {
-            mDraweeControllerBuilder = Fresco.newDraweeControllerBuilder();
-        }
->>>>>>> 2d69a864c39e46b74b4827f4bd8675cd720cd7df
-=======
-        if (mDraweeControllerBuilder == null) {
-            mDraweeControllerBuilder = Fresco.newDraweeControllerBuilder();
-        }
->>>>>>> 2d69a864c39e46b74b4827f4bd8675cd720cd7df
         return mDraweeControllerBuilder;
     }
 
@@ -104,34 +55,17 @@ public class RNImageWandManager extends SimpleViewManager<RNImageWand> {
 
     @Override
     public RNImageWand createViewInstance(ThemedReactContext context) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        Log.d("abc","creating");
         mImageWand = new RNImageWand(
                 context,
                 getDraweeControllerBuilder(),
                 getCallerContext());
 //        mImageWand.setSource("http://facebook.github.io/react/img/logo_og.png");
         return mImageWand;
-=======
-=======
->>>>>>> 2d69a864c39e46b74b4827f4bd8675cd720cd7df
-        return new RNImageWand(
-                context,
-                getDraweeControllerBuilder(),
-                getCallerContext());
-<<<<<<< HEAD
->>>>>>> 2d69a864c39e46b74b4827f4bd8675cd720cd7df
-=======
->>>>>>> 2d69a864c39e46b74b4827f4bd8675cd720cd7df
     }
 
     // In JS this is Image.props.source.uri
     @ReactProp(name = "src")
     public void setSource(RNImageWand view, @Nullable String source) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        Log.d("abc", source);
         view.setSource(source);
     }
 
@@ -140,16 +74,6 @@ public class RNImageWandManager extends SimpleViewManager<RNImageWand> {
         view.setBlur(blur);
     }
 
-=======
-        view.setSource(source);
-    }
-
->>>>>>> 2d69a864c39e46b74b4827f4bd8675cd720cd7df
-=======
-        view.setSource(source);
-    }
-
->>>>>>> 2d69a864c39e46b74b4827f4bd8675cd720cd7df
     // In JS this is Image.props.loadingIndicatorSource.uri
     @ReactProp(name = "loadingIndicatorSrc")
     public void setLoadingIndicatorSource(RNImageWand view, @Nullable String source) {

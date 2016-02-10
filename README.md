@@ -54,11 +54,15 @@ var Example = React.createClass({
   render: function() {
     return (
       <ImageWand
+        onImageInfo={this._imageInfo}
+        shouldNotifyLoadEvents={true}
         src={'...'}
         blur={4}
       />
     );
   },
-
+  _imageInfo: function(event){
+    console.log(event.width, event.height);
+  }
 });
 ```
